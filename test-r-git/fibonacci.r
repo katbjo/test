@@ -6,4 +6,4 @@ fibvals[2] <- 1
 for (i in 3:30) { 
   fibvals[i] <- fibvals[i-1]+fibvals[i-2]
 }
-print(fibvals[10])
+print(fibvals)
